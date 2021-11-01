@@ -22,7 +22,7 @@ class TestLoginduplicate(unittest.TestCase):
   def tearDown(self):
     self.driver.close()
   
-  def test_loginduplicate(self):
+  def test_signup_duplicate(self):
     self.driver.get("http://localhost:3001/activations")
     self.driver.set_window_size(1600, 900)
     element = self.driver.find_element(By.CSS_SELECTOR, ".AppBar__menu-item")
