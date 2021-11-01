@@ -11,7 +11,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import unittest;
 import string
 import random
-class TestLoginduplicate(unittest.TestCase):
+class Test_Sign_Up(unittest.TestCase):
   def setUp(self):
     chrome_options = webdriver.ChromeOptions()
     prefs = {"profile.default_content_setting_values.notifications" : 2}

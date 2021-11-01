@@ -39,6 +39,7 @@
     "geoip-lite": "^1.1.9",
     "history": "^1.13.1",
     "isomorphic-fetch": "^2.2.0",
+    "istanbul": "^0.4.5",
     "jed": "^1.1.0",
     "lodash": "^3.10.1",
     "markdown-it": "^6.0.0",
