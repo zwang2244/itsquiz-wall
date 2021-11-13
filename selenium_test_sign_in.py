@@ -18,7 +18,7 @@ class TestSignin(unittest.TestCase):
     chrome_options = webdriver.ChromeOptions()
     prefs = {"profile.default_content_setting_values.notifications" : 2}
     chrome_options.add_experimental_option("prefs",prefs)
-    self.driver = webdriver.Chrome("drivers/chromedriver",chrome_options=chrome_options)
+    self.driver = webdriver.Chrome("drivers/chromedriver",options=chrome_options)
     self.vars = {}
   
   def tearDown(self):
